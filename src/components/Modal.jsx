@@ -5,7 +5,7 @@ import $ from 'jquery';
 
 const Modal = ({ show, onClose, children, formAct, item_id, modal_name, api }) => {
   //const host = "http://192.168.254.193:5000/";
-  const host = window.location.protocol+"//"+window.location.host+"/";
+  const host = "https://booking-server-ubbc.onrender.com/";
   const access_key = "booking-app-20080104";
 
   if (!show) {
